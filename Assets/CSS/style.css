@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'sans-serif';
     scroll-behavior: smooth;
     text-decoration: none;
 }
@@ -118,34 +118,6 @@ body {
     bottom: -6px;transform: translateX(-50%) rotate(45deg);
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265. 1.55);
 }
-
-.sosmed .icon:hover span {
-    color: #fff;
-}
-
-.sosmed .icon:hover span, 
-.sosmed .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
-}
-
-.sosmed .facebook:hover span,
-.sosmed .facebook:hover .tooltip,
-.sosmed .facebook:hover .tooltip::before {
-    background: rgba(41, 128, 185, .7)
-}
-
-.sosmed .twiter:hover span,
-.sosmed .twiter:hover .tooltip,
-.sosmed .twiter:hover .tooltip::before {
-    background: rgba(52, 152, 219, .7)
-}
-
-.sosmed .instagram:hover span,
-.sosmed .instagram:hover .tooltip,
-.sosmed .instagram:hover .tooltip::before {
-    background:  rgba(230, 126, 34, .7)
-}
-
 .btn {
     background-color: #f1c40f;
     border: none;
@@ -153,74 +125,6 @@ body {
     -webkit-box-shadow: 0px 3px 17px -1px rgba(0,0,0,0.7);
     -moz-box-shadow: 0px 3px 17px -1px rgba(0,0,0,0.7);
 }
-
-.btn:hover {
-    background-color: #caa613;
-}
-
-#promo {
-    background-color: #ecebebe1;
-    height: 100vh;
-    width: 100%;
-}
-
-.promo h1 {
-    text-shadow: 0px 4px 4px rgba(0,0,0,0.5);
-}
-
-.underline {
-    border: 2px solid #f39c12;
-    width: 200px;
-    text-align: center;
-}
-
-.promo .card {
-    background: rgba(233, 233, 233, 0.5);
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.64);  
-    -webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.64);
-    -moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.64);
-    border-radius: 10px;
-    height: 400px;
-    cursor: pointer;
-}
-
-.promo .card .img {
-    border-radius: 10px;
-    filter: brightness(.8);
-    height: 220px;
-}
-
-.promo .card img:hover {
-    filter: brightness(.9);
-    transition: all ease-in-out .3s;
-}
-
-.promo .card .card-body p {
-    font-weight: 500;
-}
-
-.promo .card-fasilitas {
-    background-color: #fcfcfc;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-}
-
-.promo .card .card-fasilitas span {
-    margin-top: 15px;
-    color: #000;
-}
-
-.promo .card .card-fasilitas p {
-    font-size: 15px;
-} 
-
-.promo .card:hover {
-    background: rgb(255, 255, 255);
-    transition: all ease-in-out .3s;
-}
-
 #destination {
     width: 100%;
     height: auto;
@@ -475,19 +379,6 @@ body {
         width: auto
     }
 
-    #promo {
-        height: auto;
-    }
-
-    .promo .card {
-        height: 400px;
-        margin-bottom: 30px;
-    }
-
-    .promo .card .card-fasilitas span {
-        text-align: center;
-    }
-
     .carousel-item {
         flex-wrap: wrap;
     }
@@ -530,8 +421,8 @@ body {
     }
 
     .contack .sponsor img {
-        width: 90px; 
-        height: 100px; 
+        width: 190px; 
+        height: 110px; 
     }
 
     .contack .body p {
@@ -561,46 +452,6 @@ body {
     .header p {
         width: auto;
     }
-
-    #promo {
-        height: auto;
-    }
-
-    .promo .card {
-        margin-bottom: 30px;
-        height: 350px;
-    }
-
-    .promo .card-body h4 {
-        font-size: 15px;
-    }
-
-    .promo .card-body p {
-        font-size: 12px;
-    }
-
-    .promo .card .img {
-        height: 150px;
-    } 
-
-    .promo .card .card-fasilitas span {
-        margin-top: 15px;
-        left: 0;
-        text-align: center;
-        right: 0;
-    }
-    
-    .promo .card .card-fasilitas span img {
-        width: 30px;
-        height: 25px;
-        margin-bottom: 15px;
-    }
-
-    .promo  .card .card-fasilitas p {
-        font-size: 9px;
-        margin-right: 4px;
-    }
-
     .carousel-item {
         flex-wrap: wrap;
     }
