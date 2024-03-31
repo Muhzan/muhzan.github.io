@@ -31,11 +31,11 @@ window.addEventListener('scroll', function () {
     });
 });
 
-function galery() {
+function layanan() {
     alert("Mohon maaf saat ini belum tersedia karna masih dalam pemeliharaan");
 }
 
-function bromo() {
-    window.location.href='bromo.html';
+function tentang() {
+    window.location.href='tentang.html';
 }
 
